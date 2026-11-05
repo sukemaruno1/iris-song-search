@@ -1,31 +1,31 @@
-i☆Ris Song Search - iPhone用スターター
+i☆Ris Song Search データ更新版（歌ネット情報追加）
 
-ファイル:
-- index.html : 検索画面
-- songs.json : データ（最初は空）
+内容:
+- songs: 94曲
+- creators: 29名
+- credits: 105件
+- releases: 19作品
+- release_tracks: 94件
 
-このひな形はindex.htmlとsongs.jsonを同じフォルダに置き、Webサーバー経由で開く想定です。
-iPhoneの「ファイル」アプリからHTMLを直接開くと、ブラウザ制限でJSONを読み込めない場合があります。
+既存のiPhone用スターター index.html が要求するJSON形式
+(songs.song_id / song_title, creators.creator_id / creator_name,
+credits.song_id / creator_id / role) に変換済みです。
 
-songs.jsonの登録形式:
-{
-  "songs": [{"song_id":"S0001","song_title":"曲名","song_title_kana":""}],
-  "creators": [{"creator_id":"C0001","creator_name":"作家名"}],
-  "credits": [{"credit_id":"CR001","song_id":"S0001","creator_id":"C0001","role":"作詞"}],
-  "releases": [], "release_tracks": [], "sources": []
-}
+歌ネット:
+https://www.uta-net.com/artist/13938/
+歌ネットのページは103曲掲載を確認。歌詞本文は著作権に配慮して保存していません。
+今回の更新では、ページから確認できた i☆Doloid と 愛 for you！の作詞・作曲・編曲情報を追加/照合し、
+歌ネットを出典として登録しました。
+ただし、103曲すべてのクレジットを一括取得・照合した完成版ではありません。
+ソロ曲・ユニット曲・ライブ限定曲を含む全範囲の網羅確認も継続が必要です。
 
-roleは「作詞」「作曲」「編曲」。
-共作の場合はcreditsに担当者ごとに1行追加します。
-同じ曲が複数作品に収録されてもsongsに重複登録せず、release_tracksで管理します。
+注意:
+- index.html は既存スターターのものをそのまま使用してください。
+- このZIP内の songs.json をGitHubの songs.json と置き換えてください。
+- GitHubにアップロードする前に、必ずバックアップを取ってください。
 
-iPhoneのみでの公開例:
-1. GitHubアカウントを作成し、Safariでgithub.comを開く。
-2. 新しいrepository（リポジトリ）を作成する。
-3. index.htmlとsongs.jsonを同じリポジトリの直下にアップロードする。
-4. Repository Settings > Pages から公開元を設定する。
-5. 発行されたURLをSafariで開く。
 
-GitHub Pagesはアプリ作成サービスではなく、静的ファイルを公開するホスティング機能です。
-公開設定の画面名・利用条件は変更されることがあります。
-実際のクレジットは公式情報で確認し、出典も記録してください。
+【2026-11-05 追加更新】
+歌ネットの一覧ページで作詞・作曲・編曲を確認できた以下の7曲を追加しました：
+あっぱれ！馬鹿騒ぎ、Anniversary、徒太陽、イチズ、Welcome to あざとさワールド、Summer Dude
+このZIPは作業途中の確認用データであり、歌ネット掲載103曲の全件取り込み完了版ではありません。
