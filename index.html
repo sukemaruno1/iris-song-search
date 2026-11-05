@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#5b4b8a"><title>i☆Ris Song Search</title>
+<style>
+*{box-sizing:border-box}body{margin:0;padding:18px 14px 36px;background:#f7f6fa;color:#282432;font-family:-apple-system,BlinkMacSystemFont,sans-serif}
+main{max-width:680px;margin:auto}header{background:linear-gradient(135deg,#55417e,#8a6ab1);color:white;padding:22px 18px;border-radius:18px}
+h1{font-size:24px;margin:0 0 5px}header p{font-size:13px;margin:0;opacity:.9}
+.panel,.result{background:white;border:1px solid #e8e4ee;border-radius:15px;padding:15px;margin-top:13px}
+label{display:block;font-weight:650;font-size:13px;margin:12px 0 6px}
+input,select{width:100%;padding:13px;border:1px solid #d9d4e1;border-radius:10px;font-size:16px;background:white}
+.hint,.count{font-size:12px;color:#706b79;line-height:1.6}.count{margin:15px 2px 7px}
+.result h2{font-size:18px;margin:0 0 10px}.credit{display:grid;grid-template-columns:60px 1fr;gap:8px;padding:7px 0;border-top:1px solid #f0edf3;font-size:14px}
+.role{color:#706b79}.empty{text-align:center;color:#706b79;padding:25px 12px}
+footer{text-align:center;font-size:11px;color:#777180;margin:20px 8px}
+</style></head><body><main>
+<header><h1>i☆Ris Song Search</h1><p>楽曲・作詞・作曲・編曲クレジット検索</p></header>
+<section class="panel">
+<label for="q">キーワード</label><input id="q" type="search" placeholder="曲名・作家名を入力">
+<label for="role">担当区分</label><select id="role">
+<option value="all">すべて</option><option>作詞</option><option>作曲</option><option>編曲</option></select>
+<p class="hint">曲名または作家名の一部で検索できます。</p></section>
+<div class="count" id="count">データを読み込み中…</div><section id="results"></section>
+<footer>個人用データベースのひな形です。公式クレジットを確認して登録してください。</footer>
+</main><script>
+let db={songs:[],creators:[],credits:[]};
+const q=document.getElementById('q'), role=document.getElementById('role');
+const results=document.getElementById('results'), count=document.getElementById('count');
+function creatorName(id){const c=db.creators.find(x=>x.creator_id===id);return c?c.creator_name:'作家情報未登録'}
+function render(){
+ const word=q.value.trim().toLocaleLowerCase(), selected=role.value;
+ const found=db.songs.filter(song=>{
+  const cs=db.credits.filter(c=>c.song_id===song.song_id);
+  const title=(song.song_title||'').toLocaleLowerCase().includes(word)||(song.song_title_kana||'').toLocaleLowerCase().includes(word);
+  const author=cs.some(c=>creatorName(c.creator_id).toLocaleLowerCase().includes(word));
+  const roleOk=selected==='all'||cs.some(c=>c.role===selected);
+  return (!word||title||author)&&roleOk;
+ });
+ count.textContent=found.length+' 曲';results.innerHTML='';
+ if(!found.length){results.innerHTML='<div class="result empty">該当する楽曲はありません。<br>データが未登録の場合もあります。</div>';return}
+ found.forEach(song=>{
+  const cs=db.credits.filter(c=>c.song_id===song.song_id&&(selected==='all'||c.role===selected));
+  const card=document.createElement('article');card.className='result';
+  const h=document.createElement('h2');h.textContent=song.song_title||'名称未登録';card.appendChild(h);
+  if(!cs.length){const p=document.createElement('p');p.className='hint';p.textContent='クレジット未登録';card.appendChild(p)}
+  cs.forEach(c=>{const line=document.createElement('div');line.className='credit';
+   const r=document.createElement('span');r.className='role';r.textContent=c.role;
+   const n=document.createElement('span');n.textContent=creatorName(c.creator_id);line.append(r,n);card.appendChild(line)});
+  results.appendChild(card);
+ });
+}
+q.addEventListener('input',render);role.addEventListener('change',render);
+fetch('./songs.json').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{db={...db,...data};render()})
+.catch(()=>{count.textContent='データファイルを読み込めません';results.innerHTML='<div class="result empty">index.htmlとsongs.jsonを同じフォルダに置き、Web公開先から開いてください。</div>'});
+</script></body></html>
