@@ -1,577 +1,204 @@
 <!doctype html>
-
 <html lang="ja">
-
 <head>
-
 <meta charset="utf-8">
-
-<meta name="viewport" content="width=device-width,initial-scale=1">
-
-<meta name="theme-color" content="#5b4b8a">
-
-<title>i☆Ris Song Search</title>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#6b4eff">
+<title>i☆Ris 楽曲検索・管理</title>
 <style>
-
+:root{color-scheme:light;--main:#6b4eff;--line:#ddd8f5;--bg:#f7f6fc;--ink:#242136}
 *{box-sizing:border-box}
-
-body{margin:0;padding:18px 14px 36px;background:#f7f6fa;color:#282432;font-family:-apple-system,BlinkMacSystemFont,sans-serif}
-
-main{max-width:680px;margin:auto}
-
-header{background:linear-gradient(135deg,#55417e,#8a6ab1);color:white;padding:22px 18px;border-radius:18px}
-
-h1{font-size:24px;margin:0 0 5px}
-
-header p{font-size:13px;margin:0}
-
-.panel,.result{background:white;border:1px solid #e8e4ee;border-radius:15px;padding:15px;margin-top:13px}
-
-label{display:block;font-weight:650;font-size:13px;margin:12px 0 6px}
-
-input,select,button{width:100%;padding:13px;border:1px solid #d9d4e1;border-radius:10px;font-size:16px;background:white}
-
-button{background:#66518e;color:white;border:0;font-weight:650;margin-top:10px}
-
-button.secondary{background:#eeeaf4;color:#403451}
-
-button.danger{background:#a94352}
-
-.hint,.count{font-size:12px;color:#706b79;line-height:1.6}
-
-.count{margin:15px 2px 7px}
-
-.result h2{font-size:18px;margin:0 0 10px}
-
-.credit{display:grid;grid-template-columns:60px 1fr;gap:8px;padding:7px 0;border-top:1px solid #f0edf3;font-size:14px}
-
-.role{color:#706b79}
-
-.empty{text-align:center;color:#706b79;padding:25px 12px}
-
-footer{text-align:center;font-size:11px;color:#777180;margin:20px 8px}
-
-hr{border:0;border-top:1px solid #eee;margin:18px 0}
-
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;line-height:1.55}
+header{background:linear-gradient(120deg,#6b4eff,#a34bcb);color:#fff;padding:24px 16px}
+header h1{font-size:22px;margin:0 0 5px}
+header p{margin:0;font-size:13px;opacity:.9}
+main{max-width:850px;margin:0 auto;padding:16px}
+.panel{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;margin:0 0 16px;box-shadow:0 3px 12px #3322660a}
+h2{font-size:18px;margin:0 0 12px}
+h3{font-size:15px;margin:16px 0 8px}
+label{display:block;font-size:13px;font-weight:700;margin:10px 0 5px}
+input,select{width:100%;min-height:44px;border:1px solid #cfc9e4;border-radius:9px;padding:9px 11px;font-size:16px;background:#fff;color:var(--ink)}
+button{border:0;border-radius:9px;padding:11px 14px;font-size:14px;font-weight:700;cursor:pointer;background:var(--main);color:#fff}
+button.secondary{background:#eeeafb;color:#46358c}
+button.danger{background:#b8324b}
+button.small{padding:7px 10px;font-size:12px}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.row{display:flex;gap:8px;align-items:center;margin:7px 0}
+.row input{flex:1;min-width:0}
+.row button{flex:none}
+.searchgrid{display:grid;grid-template-columns:1fr;gap:8px}
+.result{border-top:1px solid #eee;padding:12px 0}
+.result:first-child{border-top:0}
+.songtitle{font-weight:800;font-size:16px}
+.meta{font-size:13px;color:#5d5870;margin-top:4px}
+.tag{display:inline-block;background:#f0edff;color:#4e3aa5;border-radius:6px;padding:2px 7px;margin:3px 4px 0 0;font-size:12px}
+.muted{color:#777;font-size:13px}
+#status{font-size:13px;margin-top:9px;color:#4b3b91}
+.empty{padding:18px;text-align:center;color:#777}
+hr{border:0;border-top:1px solid #eee;margin:16px 0}
+@media(min-width:650px){.searchgrid{grid-template-columns:2fr 1fr}}
 </style>
-
 </head>
-
 <body>
-
-<main>
-
 <header>
-
-<h1>i☆Ris Song Search</h1>
-
-<p>楽曲・作詞・作曲・編曲クレジット検索</p>
-
+<h1>i☆Ris 楽曲検索・管理</h1>
+<p>楽曲名・読み仮名・作詞・作曲・編曲者から検索できます</p>
 </header>
-
+<main>
 <section class="panel">
-
-<label for="q">キーワード</label>
-
-<input id="q" type="search" placeholder="曲名・作家名を入力">
-
-<label for="role">担当区分</label>
-
-<select id="role">
-
-<option value="all">すべて</option>
-
-<option>作詞</option><option>作曲</option><option>編曲</option>
-
-</select>
-
-<p class="hint">曲名または作家名の一部で検索できます。</p>
-
+<h2>楽曲を検索</h2>
+<div class="searchgrid">
+<div><label for="query">キーワード</label><input id="query" placeholder="曲名・作詞家・作曲家など"></div>
+<div><label for="roleFilter">役割で絞り込み</label><select id="roleFilter"><option value="">すべて</option><option>作詞</option><option>作曲</option><option>編曲</option></select></div>
+</div>
+<div id="results" aria-live="polite"></div>
 </section>
 
-<div class="count" id="count">データを読み込み中…</div>
-
-<section id="results"></section>
-
 <section class="panel">
+<h2>楽曲データの管理</h2>
+<p class="muted">作詞家・作曲家・編曲家は、1人ずつ別の入力欄に登録できます。同じ曲に複数人を登録しても、それぞれ個別に検索できます。</p>
+<label for="songTitle">楽曲名 *</label><input id="songTitle" placeholder="例：ハートビート急上昇">
+<label for="songKana">楽曲名の読み仮名</label><input id="songKana" placeholder="例：はーとびーときゅうじょうしょう">
 
-<h2>楽曲管理</h2>
-
-<p class="hint">曲を追加・編集・削除できます。作家名が複数いる場合は「、」で区切って入力してください。</p>
-
-<label for="editSong">編集する曲</label>
-
-<select id="editSong">
-
-<option value="">新しい曲を追加</option>
-
-</select>
-
-<label for="title">曲名</label>
-
-<input id="title" placeholder="曲名">
-
-<label for="kana">曲名の読み仮名</label>
-
-<input id="kana" placeholder="きょくめい">
-
-<label for="lyricist">作詞</label>
-
-<input id="lyricist" placeholder="作詞者名">
-
-<label for="composer">作曲</label>
-
-<input id="composer" placeholder="作曲者名">
-
-<label for="arranger">編曲</label>
-
-<input id="arranger" placeholder="編曲者名">
-
-<button id="save">曲を追加する</button>
-
-<button class="secondary" id="clear">入力をクリア</button>
-
-<button class="danger" id="delete">選択した曲を削除</button>
-
+<div id="creditGroups"></div>
+<div class="actions">
+<button id="saveSong">新規登録</button>
+<button class="secondary" id="clearForm" type="button">入力をクリア</button>
+</div>
+<div id="status" role="status"></div>
 <hr>
-
-<h3>データの保存</h3>
-
-<p class="hint">編集内容をJSONファイルとして書き出し、GitHubのsongs.jsonと差し替えてください。</p>
-
-<button id="export">songs.jsonを書き出す</button>
-
-<p class="hint" id="status">データを読み込んでいます。</p>
-
+<h3>データの読み込み・書き出し</h3>
+<p class="muted">GitHubにある既存の songs.json を読み込むか、編集後のデータをJSON形式で保存できます。</p>
+<div class="actions">
+<button class="secondary" id="loadJson" type="button">JSONファイルを読み込む</button>
+<button class="secondary" id="exportJson" type="button">songs.jsonを書き出す</button>
+<button class="secondary" id="downloadBackup" type="button">バックアップ保存</button>
+</div>
+<input id="fileInput" type="file" accept=".json,application/json" hidden>
 </section>
-
-<footer>i☆Ris Song Search / 個人用楽曲データベース</footer>
-
+<section class="panel">
+<h2>登録済み楽曲</h2>
+<div id="manageList"></div>
+</section>
 </main>
-
 <script>
-
-let db={songs:[],creators:[],credits:[]};
-
-let loaded=false;
-
+const ROLES=["作詞","作曲","編曲"];
+let db={songs:[],creators:[],credits:[],releases:[],release_tracks:[],sources:[]};
+let editingSongId=null;
 const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const uid=prefix=>prefix+"_"+Date.now().toString(36)+"_"+Math.random().toString(36).slice(2,7);
 
-const q=$('q'),role=$('role'),results=$('results'),count=$('count');
-
-function creatorName(id){
-
- const c=db.creators.find(x=>x.creator_id===id);
-
- return c?c.creator_name:'作家情報未登録';
-
+function normalizeDatabase(data){
+ const clean={...db,...(data||{})};
+ for(const k of ["songs","creators","credits","releases","release_tracks","sources"]) if(!Array.isArray(clean[k])) clean[k]=[];
+ clean.songs=clean.songs.map((s,i)=>({...s,song_id:s.song_id??uid("song"),song_title:s.song_title??s.title??"曲名未設定",song_title_kana:s.song_title_kana??s.kana??""}));
+ clean.creators=clean.creators.map(c=>({...c,creator_id:c.creator_id??uid("creator"),creator_name:c.creator_name??c.name??""}));
+ clean.credits=clean.credits.map(c=>({...c,credit_id:c.credit_id??uid("credit")}));
+ return clean;
 }
-
-function nextId(list,key,prefix){
-
- let max=0;
-
- list.forEach(x=>{
-
-  const m=String(x[key]||'').match(/(\d+)$/);
-
-  if(m)max=Math.max(max,Number(m[1]));
-
+function createCreditGroup(role){
+ const group=document.createElement("div");
+ group.innerHTML=`<h3>${role}</h3><div class="creditRows" data-role="${role}"></div><div class="actions"><button type="button" class="secondary small addCredit">＋ ${role}者を追加</button></div>`;
+ const rows=group.querySelector(".creditRows");
+ const add=value=>{const row=document.createElement("div");row.className="row";row.innerHTML=`<input aria-label="${role}者名" placeholder="${role}者名（1人ずつ入力）"><button type="button" class="danger small">削除</button>`;row.querySelector("input").value=value||"";row.querySelector("button").onclick=()=>{if(rows.children.length>1)row.remove();else row.querySelector("input").value="";};rows.appendChild(row);};
+ add("");
+ group.querySelector(".addCredit").onclick=()=>add("");
+ return group;
+}
+const groupRefs={};
+function initCreditGroups(){
+ $("creditGroups").innerHTML="";
+ ROLES.forEach(role=>{const g=createCreditGroup(role);$("creditGroups").appendChild(g);groupRefs[role]=g.querySelector(".creditRows");});
+}
+function getCreatorNames(role){return [...groupRefs[role].querySelectorAll("input")].map(x=>x.value.trim()).filter(Boolean);}
+function setCreditInputs(songId){
+ ROLES.forEach(role=>{
+  const names=db.credits.filter(c=>c.song_id===songId&&c.role===role).map(c=>db.creators.find(x=>x.creator_id===c.creator_id)?.creator_name).filter(Boolean);
+  groupRefs[role].innerHTML="";
+  const addButton=groupRefs[role].parentElement.querySelector(".addCredit");
+  const add=value=>{const row=document.createElement("div");row.className="row";row.innerHTML=`<input aria-label="${role}者名" placeholder="${role}者名（1人ずつ入力）"><button type="button" class="danger small">削除</button>`;row.querySelector("input").value=value||"";row.querySelector("button").onclick=()=>{if(groupRefs[role].children.length>1)row.remove();else row.querySelector("input").value="";};groupRefs[role].appendChild(row);};
+  (names.length?names:[""]).forEach(add);
  });
-
- return prefix+String(max+1).padStart(3,'0');
-
 }
-
-function namesFor(songId,selectedRole){
-
- return db.credits
-
-  .filter(c=>c.song_id===songId&&c.role===selectedRole)
-
-  .map(c=>creatorName(c.creator_id));
-
+function setStatus(message){$("status").textContent=message;}
+function saveCredits(songId){
+ db.credits=db.credits.filter(c=>!(c.song_id===songId&&ROLES.includes(c.role)));
+ ROLES.forEach(role=>getCreatorNames(role).forEach(name=>{
+  let creator=db.creators.find(c=>c.creator_name.trim()===name);
+  if(!creator){creator={creator_id:uid("creator"),creator_name:name};db.creators.push(creator);}
+  db.credits.push({credit_id:uid("credit"),song_id:songId,creator_id:creator.creator_id,role});
+ }));
 }
-
-function render(){
-
- const word=q.value.trim().toLocaleLowerCase();
-
- const selected=role.value;
-
- const found=db.songs.filter(song=>{
-
-  const cs=db.credits.filter(c=>c.song_id===song.song_id);
-
-  const title=(song.song_title||'').toLocaleLowerCase().includes(word)||
-
-   (song.song_title_kana||'').toLocaleLowerCase().includes(word);
-
-  const author=cs.some(c=>creatorName(c.creator_id).toLocaleLowerCase().includes(word));
-
-  const roleOk=selected==='all'||cs.some(c=>c.role===selected);
-
-  return (!word||title||author)&&roleOk;
-
- });
-
- count.textContent=found.length+' 曲';
-
- results.innerHTML='';
-
- if(!found.length){
-
-  results.innerHTML='<div class="result empty">該当する楽曲はありません。</div>';
-
-  return;
-
- }
-
- found.forEach(song=>{
-
-  const cs=db.credits.filter(c=>
-
-   c.song_id===song.song_id&&(selected==='all'||c.role===selected)
-
-  );
-
-  const card=document.createElement('article');
-
-  card.className='result';
-
-  const h=document.createElement('h2');
-
-  h.textContent=song.song_title||'名称未登録';
-
-  card.appendChild(h);
-
-  if(!cs.length){
-
-   const p=document.createElement('p');
-
-   p.className='hint';p.textContent='クレジット未登録';
-
-   card.appendChild(p);
-
-  }
-
-  cs.forEach(c=>{
-
-   const line=document.createElement('div');
-
-   line.className='credit';
-
-   const r=document.createElement('span');
-
-   r.className='role';r.textContent=c.role;
-
-   const n=document.createElement('span');
-
-   n.textContent=creatorName(c.creator_id);
-
-   line.append(r,n);card.appendChild(line);
-
-  });
-
-  results.appendChild(card);
-
- });
-
+function clearForm(){
+ editingSongId=null;$("songTitle").value="";$("songKana").value="";
+ initCreditGroups();$("saveSong").textContent="新規登録";setStatus("入力欄をクリアしました。");
 }
-
-function refreshSelect(){
-
- const select=$('editSong');
-
- const old=select.value;
-
- select.innerHTML='<option value="">新しい曲を追加</option>';
-
- db.songs.forEach(song=>{
-
-  const option=document.createElement('option');
-
-  option.value=song.song_id;
-
-  option.textContent=song.song_title;
-
-  select.appendChild(option);
-
- });
-
- if(db.songs.some(s=>s.song_id===old))select.value=old;
-
-}
-
-function fillForm(){
-
- const id=$('editSong').value;
-
- if(!id){
-
-  $('title').value='';
-
-  $('kana').value='';
-
-  $('lyricist').value='';
-
-  $('composer').value='';
-
-  $('arranger').value='';
-
-  $('save').textContent='曲を追加する';
-
-  return;
-
- }
-
- const song=db.songs.find(s=>s.song_id===id);
-
- if(!song)return;
-
- $('title').value=song.song_title||'';
-
- $('kana').value=song.song_title_kana||'';
-
- $('lyricist').value=namesFor(id,'作詞').join('、');
-
- $('composer').value=namesFor(id,'作曲').join('、');
-
- $('arranger').value=namesFor(id,'編曲').join('、');
-
- $('save').textContent='曲情報を更新する';
-
-}
-
-function splitNames(value){
-
- return [...new Set(value.split(/[、,，]/).map(x=>x.trim()).filter(Boolean))];
-
-}
-
-function addCredit(songId,roleName,value){
-
- splitNames(value).forEach(name=>{
-
-  let creator=db.creators.find(c=>c.creator_name===name);
-
-  if(!creator){
-
-   creator={
-
-    creator_id:nextId(db.creators,'creator_id','C'),
-
-    creator_name:name
-
-   };
-
-   db.creators.push(creator);
-
-  }
-
-  db.credits.push({
-
-   credit_id:nextId(db.credits,'credit_id','CR'),
-
-   song_id:songId,
-
-   creator_id:creator.creator_id,
-
-   role:roleName
-
-  });
-
- });
-
-}
-
 function saveSong(){
-
- if(!loaded){alert('データ読み込みが完了していません。');return;}
-
- const title=$('title').value.trim();
-
- if(!title){alert('曲名を入力してください。');return;}
-
- let id=$('editSong').value;
-
+ const title=$("songTitle").value.trim();
+ if(!title){setStatus("楽曲名を入力してください。");$("songTitle").focus();return;}
  let song;
-
- if(id){
-
-  song=db.songs.find(s=>s.song_id===id);
-
-  if(!song)return;
-
-  song.song_title=title;
-
-  song.song_title_kana=$('kana').value.trim();
-
-  db.credits=db.credits.filter(c=>c.song_id!==id);
-
- }else{
-
-  id=nextId(db.songs,'song_id','S');
-
-  song={
-
-   song_id:id,
-
-   song_title:title,
-
-   song_title_kana:$('kana').value.trim()
-
-  };
-
-  db.songs.push(song);
-
- }
-
- addCredit(id,'作詞',$('lyricist').value);
-
- addCredit(id,'作曲',$('composer').value);
-
- addCredit(id,'編曲',$('arranger').value);
-
- refreshSelect();
-
- $('editSong').value=id;
-
- fillForm();
-
- render();
-
- $('status').textContent='変更しました。JSONを書き出してください。';
-
- alert('曲情報を保存しました。');
-
+ if(editingSongId){song=db.songs.find(s=>s.song_id===editingSongId);if(!song){setStatus("編集対象が見つかりません。");return;}song.song_title=title;song.song_title_kana=$("songKana").value.trim();}
+ else{song={song_id:uid("song"),song_title:title,song_title_kana:$("songKana").value.trim()};db.songs.push(song);}
+ saveCredits(song.song_id);
+ setStatus(editingSongId?"楽曲を更新しました。":"楽曲を登録しました。");
+ clearForm();render();
 }
-
-function deleteSong(){
-
- const id=$('editSong').value;
-
- if(!id){alert('削除する曲を選択してください。');return;}
-
- const song=db.songs.find(s=>s.song_id===id);
-
- if(!confirm('「'+song.song_title+'」を削除しますか？'))return;
-
- db.songs=db.songs.filter(s=>s.song_id!==id);
-
- db.credits=db.credits.filter(c=>c.song_id!==id);
-
- if(Array.isArray(db.release_tracks)){
-
-  db.release_tracks=db.release_tracks.filter(t=>t.song_id!==id);
-
- }
-
- refreshSelect();
-
- $('editSong').value='';
-
- fillForm();
-
- render();
-
- $('status').textContent='曲を削除しました。JSONを書き出してください。';
-
+function creatorNames(songId,role){return db.credits.filter(c=>c.song_id===songId&&c.role===role).map(c=>db.creators.find(x=>x.creator_id===c.creator_id)?.creator_name).filter(Boolean);}
+function render(){
+ const q=$("query").value.trim().toLocaleLowerCase();
+ const role=$("roleFilter").value;
+ const filtered=db.songs.filter(song=>{
+  const credits=db.credits.filter(c=>c.song_id===song.song_id);
+  const people=credits.map(c=>db.creators.find(x=>x.creator_id===c.creator_id)?.creator_name||"");
+  const text=[song.song_title,song.song_title_kana,...people].join(" ").toLocaleLowerCase();
+  const roleMatch=!role||credits.some(c=>c.role===role);
+  return (!q||text.includes(q))&&roleMatch;
+ });
+ $("results").innerHTML=filtered.length?filtered.map(song=>`<div class="result"><div class="songtitle">${esc(song.song_title)}</div>${song.song_title_kana?`<div class="muted">${esc(song.song_title_kana)}</div>`:""}${ROLES.map(r=>{const names=creatorNames(song.song_id,r);return names.length?`<div class="meta"><b>${r}：</b>${names.map(esc).join("、")}</div>`:"";}).join("")}</div>`).join(""):`<div class="empty">該当する楽曲はありません。</div>`;
+ $("manageList").innerHTML=db.songs.length?db.songs.map(s=>`<div class="result"><div class="songtitle">${esc(s.song_title)}</div><div class="actions"><button type="button" class="secondary small" data-edit="${esc(s.song_id)}">編集</button><button type="button" class="danger small" data-delete="${esc(s.song_id)}">削除</button></div></div>`).join(""):`<div class="empty">楽曲データがありません。</div>`;
+ $("manageList").querySelectorAll("[data-edit]").forEach(b=>b.onclick=()=>editSong(b.dataset.edit));
+ $("manageList").querySelectorAll("[data-delete]").forEach(b=>b.onclick=()=>deleteSong(b.dataset.delete));
 }
-
-function exportJSON(){
-
- const blob=new Blob(
-
-  [JSON.stringify(db,null,2)],
-
-  {type:'application/json;charset=utf-8'}
-
- );
-
- const url=URL.createObjectURL(blob);
-
- const a=document.createElement('a');
-
- a.href=url;
-
- a.download='songs.json';
-
- document.body.appendChild(a);
-
- a.click();
-
- a.remove();
-
- setTimeout(()=>URL.revokeObjectURL(url),3000);
-
- $('status').textContent='songs.jsonを書き出しました。GitHubの同名ファイルと差し替えてください。';
-
+function editSong(id){
+ const s=db.songs.find(x=>x.song_id===id);if(!s)return;
+ editingSongId=id;$("songTitle").value=s.song_title;$("songKana").value=s.song_title_kana||"";
+ setCreditInputs(id);$("saveSong").textContent="変更を保存";setStatus("編集中："+s.song_title);
+ window.scrollTo({top:0,behavior:"smooth"});
 }
-
-q.addEventListener('input',render);
-
-role.addEventListener('change',render);
-
-$('editSong').addEventListener('change',fillForm);
-
-$('save').addEventListener('click',saveSong);
-
-$('clear').addEventListener('click',()=>{
-
- $('editSong').value='';
-
- fillForm();
-
-});
-
-$('delete').addEventListener('click',deleteSong);
-
-$('export').addEventListener('click',exportJSON);
-
-fetch('./songs.json')
-
-.then(r=>{
-
- if(!r.ok)throw Error('読み込み失敗');
-
- return r.json();
-
-})
-
-.then(data=>{
-
- db={...db,...data};
-
- if(!Array.isArray(db.songs))db.songs=[];
-
- if(!Array.isArray(db.creators))db.creators=[];
-
- if(!Array.isArray(db.credits))db.credits=[];
-
- loaded=true;
-
- refreshSelect();
-
+function deleteSong(id){
+ const s=db.songs.find(x=>x.song_id===id);if(!s)return;
+ if(!confirm(`「${s.song_title}」を削除しますか？`))return;
+ db.songs=db.songs.filter(x=>x.song_id!==id);
+ db.credits=db.credits.filter(x=>x.song_id!==id);
+ const used=new Set(db.credits.map(c=>c.creator_id));db.creators=db.creators.filter(c=>used.has(c.creator_id));
+ if(editingSongId===id)clearForm();
+ setStatus("楽曲を削除しました。");render();
+}
+function downloadJson(filename){
+ const blob=new Blob([JSON.stringify(db,null,2)],{type:"application/json"});
+ const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download=filename;a.click();URL.revokeObjectURL(url);
+}
+$("query").addEventListener("input",render);$("roleFilter").addEventListener("change",render);
+$("saveSong").onclick=saveSong;$("clearForm").onclick=clearForm;
+$("exportJson").onclick=()=>downloadJson("songs.json");
+$("downloadBackup").onclick=()=>downloadJson("songs_backup.json");
+$("loadJson").onclick=()=>$("fileInput").click();
+$("fileInput").onchange=async e=>{
+ const file=e.target.files[0];if(!file)return;
+ try{const parsed=JSON.parse(await file.text());if(!Array.isArray(parsed.songs)||!Array.isArray(parsed.creators)||!Array.isArray(parsed.credits))throw new Error("必要なデータがありません");
+ if(!confirm("現在のデータを読み込んだJSONの内容に置き換えます。よろしいですか？"))return;
+ db=normalizeDatabase(parsed);clearForm();render();setStatus("JSONを読み込みました。");
+ }catch(err){alert("読み込みに失敗しました。JSONファイルを確認してください。\n"+err.message);}
+ e.target.value="";
+};
+async function loadInitial(){
+ try{const response=await fetch("./songs.json",{cache:"no-store"});if(!response.ok)throw new Error("songs.jsonを取得できません");
+ db=normalizeDatabase(await response.json());setStatus("songs.jsonを読み込みました。");
+ }catch(e){setStatus("songs.jsonを読み込めませんでした。空のデータで起動しています。JSONファイルを読み込んでください。");}
  render();
-
- $('status').textContent='データ読み込み完了。編集できます。';
-
-})
-
-.catch(()=>{
-
- count.textContent='データを読み込めません';
-
- $('status').textContent='songs.jsonを読み込めません。';
-
- results.innerHTML='<div class="result empty">index.htmlとsongs.jsonを同じフォルダに置いてください。</div>';
-
-});
-
+}
+initCreditGroups();loadInitial();
 </script>
-
 </body>
-
 </html>
