@@ -1,0 +1,5898 @@
+{
+  "schema_version": "1.0",
+  "generated_on": "2026-11-13",
+  "scope": {
+    "include": [
+      "Book1.xlsxのSheet1に記載された楽曲",
+      "Sheet1 (2)に記載された追加クレジット"
+    ],
+    "exclude": [
+      "カバー曲（Excelに記載されていないもの）",
+      "澁谷梓希のソロ楽曲「扇子・オブ・ワンダー☆続」",
+      "澁谷梓希名義のクレジット"
+    ],
+    "limitations": "楽曲名・作詞・作曲・編曲はユーザー提供Excelを基準に再構成。Excelにアーティスト/歌唱者の列がないため、既存データと曲名が一致しない楽曲のアーティスト・歌唱者は空欄。Excelに記載のないクレジットは補完していない。年はSheet1の年見出しから判定できる範囲のみ。"
+  },
+  "data_status": "ユーザー提供Excelを基準に再構成した版。未記載情報は推測で補完していない。",
+  "songs": [
+    {
+      "song_id": "S0007",
+      "song_title": "Color",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0023",
+      "song_title": "らむねサンセット",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0098",
+      "song_title": "イチズ",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0024",
+      "song_title": "i☆Doloid",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0025",
+      "song_title": "進めアバンチュール",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0008",
+      "song_title": "§Rainbow",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0002",
+      "song_title": "幻想曲WONDERLAND",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0026",
+      "song_title": "もしも毎日がクリスマスだったら",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0097",
+      "song_title": "徒太陽",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0027",
+      "song_title": "Happy New World☆",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0028",
+      "song_title": "Dream☆Land",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0001",
+      "song_title": "Make it!",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0029",
+      "song_title": "ユメノツバサ",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0101",
+      "song_title": "ミラクル☆パラダイス",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0031",
+      "song_title": "ココロノヲト",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0032",
+      "song_title": "Special Kiss",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0030",
+      "song_title": "Secret Pure Love",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0033",
+      "song_title": "ミライノナマエ",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0034",
+      "song_title": "わくドキしたいっ!",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0010",
+      "song_title": "Realize!",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0003",
+      "song_title": "Defy the fate",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0004",
+      "song_title": "Believe in",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0005",
+      "song_title": "流星",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0006",
+      "song_title": "Love Magic",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0102",
+      "song_title": "Believer's HEAVEN",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0011",
+      "song_title": "ayatsunagi",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0103",
+      "song_title": "ドリームパレード",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0035",
+      "song_title": "Summer Vacation Love",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0036",
+      "song_title": "NEXTAGE",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0104",
+      "song_title": "ブライトファンタジー",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0037",
+      "song_title": "ハチャメチャ×ストライク",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0040",
+      "song_title": "キラリ",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0105",
+      "song_title": "Goin'on",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0039",
+      "song_title": "Baby...",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0106",
+      "song_title": "Over the future",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0107",
+      "song_title": "Secret Garden",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0108",
+      "song_title": "鉄腕ガール",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0109",
+      "song_title": "Vampire Lady",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0110",
+      "song_title": "Fanfare",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0111",
+      "song_title": "My Bright...",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0112",
+      "song_title": "YuRuYuRuハッピーデイズ",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0113",
+      "song_title": "Raspberry night",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0114",
+      "song_title": "Ready Smile!!",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0041",
+      "song_title": "trust",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0042",
+      "song_title": "Garnet",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0115",
+      "song_title": "Re:Call",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0043",
+      "song_title": "鏡のLabyrinth",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0044",
+      "song_title": "真夏の花火と秘密基地",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0116",
+      "song_title": "Shining Star",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0045",
+      "song_title": "jewel",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0046",
+      "song_title": "HERO",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0057",
+      "song_title": "DIVE TO LIVE",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0117",
+      "song_title": "Daily Berry!!",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0118",
+      "song_title": "Heart Crash!",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0119",
+      "song_title": "キミノカノウセイ",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0120",
+      "song_title": "Dear...",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0121",
+      "song_title": "Growing days",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0077",
+      "song_title": "Lovely time",
+      "song_title_kana": "",
+      "artist": "久保田未夢",
+      "category": "solo",
+      "performers": [
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0122",
+      "song_title": "DETERMINE",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0123",
+      "song_title": "WONDERFUL PALETTE",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0124",
+      "song_title": "パズル",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0125",
+      "song_title": "Feel it",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0013",
+      "song_title": "Memorial",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0048",
+      "song_title": "漢",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0047",
+      "song_title": "キラキラGood day",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0017",
+      "song_title": "Changing point",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0049",
+      "song_title": "アメコイ",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0050",
+      "song_title": "卒業式",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0014",
+      "song_title": "Endless Notes",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0051",
+      "song_title": "イノセントイノベーション",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0052",
+      "song_title": "ありえんほどフィーバー",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0015",
+      "song_title": "アルティメット☆MAGIC",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0019",
+      "song_title": "FANTASTIC ILLUSION",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0053",
+      "song_title": "Thank you forever!",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0012",
+      "song_title": "ハピラキ☆Dream Carnival",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0016",
+      "song_title": "Spending",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0018",
+      "song_title": "泡沫の光",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0020",
+      "song_title": "TIN TONE",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0021",
+      "song_title": "One Kiss",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0022",
+      "song_title": "夢中グラフィティ",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0100",
+      "song_title": "Summer Dude",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0055",
+      "song_title": "Cheer up",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0054",
+      "song_title": "5STAR☆(仮)",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0126",
+      "song_title": "12月のSnowry",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0127",
+      "song_title": "ハートビート急上昇",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0056",
+      "song_title": "Dream Travelers",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0128",
+      "song_title": "Queens Bluff",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0096",
+      "song_title": "Anniversary",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0095",
+      "song_title": "あっぱれ!馬鹿騒ぎ",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0129",
+      "song_title": "Let you know!",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0130",
+      "song_title": "White Lyrical Kingdom",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0131",
+      "song_title": "キセキ-ノ-フィラメント",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0132",
+      "song_title": "愛 for  you!",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0133",
+      "song_title": "希望の花を",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0134",
+      "song_title": "ビバ☆アイドル!",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0135",
+      "song_title": "スポットライトステージ!",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0136",
+      "song_title": "Platonic",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0137",
+      "song_title": "Heart Poppin'",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0138",
+      "song_title": "ツリアイ",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0139",
+      "song_title": "夢へのヒトカケラ",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0140",
+      "song_title": "Romantic Showdown",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0099",
+      "song_title": "Welcome to あざとさワールド",
+      "song_title_kana": "",
+      "artist": "i☆Ris",
+      "category": "group",
+      "performers": [
+        "山北早紀",
+        "芹澤優",
+        "茜屋日海夏",
+        "若井友希",
+        "久保田未夢"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0141",
+      "song_title": "Sweet(×5) Vintage!",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0142",
+      "song_title": "Voice for you",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0143",
+      "song_title": "Kiss!Kiss!Kiss!",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0144",
+      "song_title": "ドラマチックレイディオ",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0145",
+      "song_title": "WAGA-MA-MA-MAGIC",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0146",
+      "song_title": "imaginary",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0147",
+      "song_title": "片思いExpansion",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0148",
+      "song_title": "PRINCESS POLICY",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0149",
+      "song_title": "お願いWeekend",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0150",
+      "song_title": "ハウ?トゥ!パーティ☆",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0151",
+      "song_title": "今夜も月がきれい",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0152",
+      "song_title": "No Regulation",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0153",
+      "song_title": "パラレルスターズ",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0154",
+      "song_title": "Merry Birthday!",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0091",
+      "song_title": "最悪な日でもあなたが好き。",
+      "song_title_kana": "",
+      "artist": "芹澤優",
+      "category": "solo",
+      "performers": [
+        "芹澤優"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0092",
+      "song_title": "神×太陽×サマーパーティ",
+      "song_title_kana": "",
+      "artist": "芹澤優",
+      "category": "solo",
+      "performers": [
+        "芹澤優"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0155",
+      "song_title": "デビきゅー",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0156",
+      "song_title": "Revelation",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0157",
+      "song_title": "ハイハイハイハハイテンション",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0158",
+      "song_title": "カラクリズム",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0093",
+      "song_title": "EVERYBODY!EVERYBODY!",
+      "song_title_kana": "",
+      "artist": "芹澤優 with DJ KOO & MOTSU",
+      "category": "unit",
+      "performers": [
+        "芹澤優"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0094",
+      "song_title": "YOU YOU YOU",
+      "song_title_kana": "",
+      "artist": "芹澤優 with DJ KOO & MOTSU",
+      "category": "unit",
+      "performers": [
+        "芹澤優"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0159",
+      "song_title": "シンデレラストーリー",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0160",
+      "song_title": "アンビバビバラビュー",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0161",
+      "song_title": "BLUE ROSE",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0162",
+      "song_title": "Close to you",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0163",
+      "song_title": "Break My Tears",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0079",
+      "song_title": "JUNGLE FIRE feat.MOTSU",
+      "song_title_kana": "",
+      "artist": "芹澤優",
+      "category": "solo",
+      "performers": [
+        "芹澤優"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0164",
+      "song_title": "YY ViVace",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0165",
+      "song_title": "まさか恋してる?",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0166",
+      "song_title": "ROCK ME KISS ME feat.MOTSU",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0167",
+      "song_title": "告白",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0074",
+      "song_title": "TIMELESS POWER feat.MOTSU",
+      "song_title_kana": "",
+      "artist": "芹澤優",
+      "category": "solo",
+      "performers": [
+        "芹澤優"
+      ],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    },
+    {
+      "song_id": "S0168",
+      "song_title": "Horizon",
+      "song_title_kana": "",
+      "artist": "",
+      "category": "unknown",
+      "performers": [],
+      "status": "released",
+      "credits_status": "from_user_excel"
+    }
+  ],
+  "creators": [
+    {
+      "creator_id": "C0037",
+      "creator_name": "大久保友裕"
+    },
+    {
+      "creator_id": "C0039",
+      "creator_name": "加藤碧"
+    },
+    {
+      "creator_id": "C0036",
+      "creator_name": "夏蓮"
+    },
+    {
+      "creator_id": "C0027",
+      "creator_name": "leonn"
+    },
+    {
+      "creator_id": "C0028",
+      "creator_name": "吉田将樹"
+    },
+    {
+      "creator_id": "C0035",
+      "creator_name": "ACKO"
+    },
+    {
+      "creator_id": "C0029",
+      "creator_name": "永井ルイ"
+    },
+    {
+      "creator_id": "C0040",
+      "creator_name": "ローリー寺西"
+    },
+    {
+      "creator_id": "C0041",
+      "creator_name": "Roy Wood"
+    },
+    {
+      "creator_id": "C0002",
+      "creator_name": "森月キャス"
+    },
+    {
+      "creator_id": "C0003",
+      "creator_name": "渡辺徹"
+    },
+    {
+      "creator_id": "C0042",
+      "creator_name": "日比野裕史"
+    },
+    {
+      "creator_id": "C0043",
+      "creator_name": "Mio Aoyama"
+    },
+    {
+      "creator_id": "C0044",
+      "creator_name": "丸山真由子"
+    },
+    {
+      "creator_id": "C0045",
+      "creator_name": "桑谷実沙"
+    },
+    {
+      "creator_id": "C0046",
+      "creator_name": "ats-"
+    },
+    {
+      "creator_id": "C0047",
+      "creator_name": "清水武仁"
+    },
+    {
+      "creator_id": "C0048",
+      "creator_name": "オノダヒロユキ"
+    },
+    {
+      "creator_id": "C0049",
+      "creator_name": "板倉孝徳"
+    },
+    {
+      "creator_id": "C0050",
+      "creator_name": "eNu"
+    },
+    {
+      "creator_id": "C0051",
+      "creator_name": "N,R,O"
+    },
+    {
+      "creator_id": "C0052",
+      "creator_name": "宮崎誠"
+    },
+    {
+      "creator_id": "C0053",
+      "creator_name": "Inc.)"
+    },
+    {
+      "creator_id": "C0054",
+      "creator_name": "渡辺徹,森月キャス"
+    },
+    {
+      "creator_id": "C0055",
+      "creator_name": "オノダヒロユキ(Hifumi"
+    },
+    {
+      "creator_id": "C0056",
+      "creator_name": "4sk"
+    },
+    {
+      "creator_id": "C0057",
+      "creator_name": "小松レナ"
+    },
+    {
+      "creator_id": "C0058",
+      "creator_name": "夏海"
+    },
+    {
+      "creator_id": "C0059",
+      "creator_name": "KOH"
+    },
+    {
+      "creator_id": "C0060",
+      "creator_name": "高橋修平"
+    },
+    {
+      "creator_id": "C0061",
+      "creator_name": "金崎真士"
+    },
+    {
+      "creator_id": "C0062",
+      "creator_name": "設楽哲也"
+    },
+    {
+      "creator_id": "C0063",
+      "creator_name": "川村サイコ"
+    },
+    {
+      "creator_id": "C0064",
+      "creator_name": "平出悟"
+    },
+    {
+      "creator_id": "C0065",
+      "creator_name": "hisakuni"
+    },
+    {
+      "creator_id": "C0066",
+      "creator_name": "平朋崇"
+    },
+    {
+      "creator_id": "C0067",
+      "creator_name": "EFFY"
+    },
+    {
+      "creator_id": "C0068",
+      "creator_name": "宮嶋淳子"
+    },
+    {
+      "creator_id": "C0069",
+      "creator_name": "光増ハジメ"
+    },
+    {
+      "creator_id": "C0004",
+      "creator_name": "馬渕直純"
+    },
+    {
+      "creator_id": "C0070",
+      "creator_name": "トヤマジュン"
+    },
+    {
+      "creator_id": "C0071",
+      "creator_name": "石原理酉"
+    },
+    {
+      "creator_id": "C0072",
+      "creator_name": "kyokoono"
+    },
+    {
+      "creator_id": "C0073",
+      "creator_name": "伊勢佳史(onetrap)"
+    },
+    {
+      "creator_id": "C0074",
+      "creator_name": "エンドウ"
+    },
+    {
+      "creator_id": "C0075",
+      "creator_name": "宮崎淳子"
+    },
+    {
+      "creator_id": "C0076",
+      "creator_name": "中村瑛彦"
+    },
+    {
+      "creator_id": "C0010",
+      "creator_name": "前澤希"
+    },
+    {
+      "creator_id": "C0077",
+      "creator_name": "黒崎ジョン"
+    },
+    {
+      "creator_id": "C0078",
+      "creator_name": "成瀬裕介"
+    },
+    {
+      "creator_id": "C0079",
+      "creator_name": "芹澤優"
+    },
+    {
+      "creator_id": "C0080",
+      "creator_name": "TECHNOBOYS PULCRAFT GREEN-FUND"
+    },
+    {
+      "creator_id": "C0081",
+      "creator_name": "himi"
+    },
+    {
+      "creator_id": "C0082",
+      "creator_name": "野間康介"
+    },
+    {
+      "creator_id": "C0018",
+      "creator_name": "友希"
+    },
+    {
+      "creator_id": "C0083",
+      "creator_name": "SHINNOSUKE"
+    },
+    {
+      "creator_id": "C0084",
+      "creator_name": "YOUSAY"
+    },
+    {
+      "creator_id": "C0085",
+      "creator_name": "真崎エリカ"
+    },
+    {
+      "creator_id": "C0086",
+      "creator_name": "麻村佳世"
+    },
+    {
+      "creator_id": "C0087",
+      "creator_name": "Gotoh Yoshinari"
+    },
+    {
+      "creator_id": "C0088",
+      "creator_name": "林美歩"
+    },
+    {
+      "creator_id": "C0089",
+      "creator_name": "野崎大資"
+    },
+    {
+      "creator_id": "C0090",
+      "creator_name": "山崎佳祐(onetrap)"
+    },
+    {
+      "creator_id": "C0091",
+      "creator_name": "南田健吾(onetrap)"
+    },
+    {
+      "creator_id": "C0092",
+      "creator_name": "加藤肇"
+    },
+    {
+      "creator_id": "C0001",
+      "creator_name": "Motokiyo"
+    },
+    {
+      "creator_id": "C0093",
+      "creator_name": "ピノキオピー"
+    },
+    {
+      "creator_id": "C0006",
+      "creator_name": "廣瀬祐輝"
+    },
+    {
+      "creator_id": "C0094",
+      "creator_name": "金子真友美"
+    },
+    {
+      "creator_id": "C0009",
+      "creator_name": "神谷礼"
+    },
+    {
+      "creator_id": "C0012",
+      "creator_name": "石川ゆう"
+    },
+    {
+      "creator_id": "C0013",
+      "creator_name": "Solphy"
+    },
+    {
+      "creator_id": "C0014",
+      "creator_name": "ARAKI"
+    },
+    {
+      "creator_id": "C0016",
+      "creator_name": "まるちきのこ"
+    },
+    {
+      "creator_id": "C0017",
+      "creator_name": "悠木真一"
+    },
+    {
+      "creator_id": "C0095",
+      "creator_name": "山下和彰"
+    },
+    {
+      "creator_id": "C0096",
+      "creator_name": "山北早紀"
+    },
+    {
+      "creator_id": "C0097",
+      "creator_name": "フワリ"
+    },
+    {
+      "creator_id": "C0098",
+      "creator_name": "アッシュ井上(Dream Monster)"
+    },
+    {
+      "creator_id": "C0099",
+      "creator_name": "Cocoro.(Dream Monster)"
+    },
+    {
+      "creator_id": "C0005",
+      "creator_name": "大久保薫"
+    },
+    {
+      "creator_id": "C0100",
+      "creator_name": "鶴崎輝一"
+    },
+    {
+      "creator_id": "C0032",
+      "creator_name": "井上紗矢香"
+    },
+    {
+      "creator_id": "C0101",
+      "creator_name": "Tommy"
+    },
+    {
+      "creator_id": "C0102",
+      "creator_name": "CONY"
+    },
+    {
+      "creator_id": "C0030",
+      "creator_name": "前山田健一"
+    },
+    {
+      "creator_id": "C0031",
+      "creator_name": "藤原燈太"
+    },
+    {
+      "creator_id": "C0103",
+      "creator_name": "TeddyLoid"
+    },
+    {
+      "creator_id": "C0104",
+      "creator_name": "畑亜貴"
+    },
+    {
+      "creator_id": "C0105",
+      "creator_name": "佐藤純一(fhana)"
+    },
+    {
+      "creator_id": "C0106",
+      "creator_name": "織田あすか(Elements Garden)"
+    },
+    {
+      "creator_id": "C0107",
+      "creator_name": "菊田大介(Elements Garden)"
+    },
+    {
+      "creator_id": "C0108",
+      "creator_name": "i☆Ris"
+    },
+    {
+      "creator_id": "C0109",
+      "creator_name": "大石昌良"
+    },
+    {
+      "creator_id": "C0110",
+      "creator_name": "岸田勇気"
+    },
+    {
+      "creator_id": "C0111",
+      "creator_name": "松隈ケンタ"
+    },
+    {
+      "creator_id": "C0112",
+      "creator_name": "SCRAMBLES"
+    },
+    {
+      "creator_id": "C0113",
+      "creator_name": "小池竜暉"
+    },
+    {
+      "creator_id": "C0114",
+      "creator_name": "Hiddie"
+    },
+    {
+      "creator_id": "C0115",
+      "creator_name": "Isaka Hibiki"
+    },
+    {
+      "creator_id": "C0116",
+      "creator_name": "MaiS"
+    },
+    {
+      "creator_id": "C0117",
+      "creator_name": "堀川大翼(Elements Garden)"
+    },
+    {
+      "creator_id": "C0118",
+      "creator_name": "藤原優樹(SUPA LOVE)"
+    },
+    {
+      "creator_id": "C0119",
+      "creator_name": "渡辺泰司"
+    },
+    {
+      "creator_id": "C0120",
+      "creator_name": "ミズノゲンキ"
+    },
+    {
+      "creator_id": "C0121",
+      "creator_name": "あやか(GBB)"
+    },
+    {
+      "creator_id": "C0122",
+      "creator_name": "瀬尾沙"
+    },
+    {
+      "creator_id": "C0123",
+      "creator_name": "tatsuo"
+    },
+    {
+      "creator_id": "C0124",
+      "creator_name": "松井洋平"
+    },
+    {
+      "creator_id": "C0125",
+      "creator_name": "太田雅友"
+    },
+    {
+      "creator_id": "C0126",
+      "creator_name": "松井五郎"
+    },
+    {
+      "creator_id": "C0127",
+      "creator_name": "IMAKISASA"
+    },
+    {
+      "creator_id": "C0128",
+      "creator_name": "唐沢美帆"
+    },
+    {
+      "creator_id": "C0129",
+      "creator_name": "古屋真"
+    },
+    {
+      "creator_id": "C0130",
+      "creator_name": "宮田’レフティ’リョウ"
+    },
+    {
+      "creator_id": "C0131",
+      "creator_name": "HoneyWorks"
+    },
+    {
+      "creator_id": "C0132",
+      "creator_name": "os.nishi"
+    },
+    {
+      "creator_id": "C0133",
+      "creator_name": "ak.homma"
+    },
+    {
+      "creator_id": "C0134",
+      "creator_name": "MEG.ME"
+    },
+    {
+      "creator_id": "C0135",
+      "creator_name": "MOTSU"
+    },
+    {
+      "creator_id": "C0136",
+      "creator_name": "藤井健太郎"
+    },
+    {
+      "creator_id": "C0137",
+      "creator_name": "yuiko"
+    },
+    {
+      "creator_id": "C0138",
+      "creator_name": "永塚健登"
+    },
+    {
+      "creator_id": "C0008",
+      "creator_name": "久下真音"
+    },
+    {
+      "creator_id": "C0139",
+      "creator_name": "モリタコータ"
+    },
+    {
+      "creator_id": "C0140",
+      "creator_name": "片山将太"
+    },
+    {
+      "creator_id": "C0141",
+      "creator_name": "陶山隼"
+    },
+    {
+      "creator_id": "C0142",
+      "creator_name": "板垣祐介"
+    },
+    {
+      "creator_id": "C0143",
+      "creator_name": "徳永暁人"
+    }
+  ],
+  "credits": [
+    {
+      "credit_id": "CR00001",
+      "song_id": "S0007",
+      "creator_id": "C0037",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00002",
+      "song_id": "S0007",
+      "creator_id": "C0037",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00003",
+      "song_id": "S0023",
+      "creator_id": "C0039",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00004",
+      "song_id": "S0023",
+      "creator_id": "C0037",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00005",
+      "song_id": "S0098",
+      "creator_id": "C0036",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00006",
+      "song_id": "S0098",
+      "creator_id": "C0037",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00007",
+      "song_id": "S0024",
+      "creator_id": "C0027",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00008",
+      "song_id": "S0024",
+      "creator_id": "C0028",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00009",
+      "song_id": "S0025",
+      "creator_id": "C0035",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00010",
+      "song_id": "S0025",
+      "creator_id": "C0029",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00011",
+      "song_id": "S0008",
+      "creator_id": "C0035",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00012",
+      "song_id": "S0008",
+      "creator_id": "C0029",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00013",
+      "song_id": "S0002",
+      "creator_id": "C0035",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00014",
+      "song_id": "S0002",
+      "creator_id": "C0029",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00015",
+      "song_id": "S0026",
+      "creator_id": "C0040",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00016",
+      "song_id": "S0026",
+      "creator_id": "C0041",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00017",
+      "song_id": "S0026",
+      "creator_id": "C0041",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00018",
+      "song_id": "S0097",
+      "creator_id": "C0035",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00019",
+      "song_id": "S0097",
+      "creator_id": "C0029",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00020",
+      "song_id": "S0027",
+      "creator_id": "C0002",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00021",
+      "song_id": "S0027",
+      "creator_id": "C0003",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00022",
+      "song_id": "S0028",
+      "creator_id": "C0027",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00023",
+      "song_id": "S0028",
+      "creator_id": "C0042",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00024",
+      "song_id": "S0001",
+      "creator_id": "C0002",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00025",
+      "song_id": "S0001",
+      "creator_id": "C0003",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00026",
+      "song_id": "S0029",
+      "creator_id": "C0043",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00027",
+      "song_id": "S0029",
+      "creator_id": "C0044",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00028",
+      "song_id": "S0101",
+      "creator_id": "C0002",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00029",
+      "song_id": "S0101",
+      "creator_id": "C0045",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00030",
+      "song_id": "S0101",
+      "creator_id": "C0045",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00031",
+      "song_id": "S0031",
+      "creator_id": "C0043",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00032",
+      "song_id": "S0031",
+      "creator_id": "C0044",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00033",
+      "song_id": "S0032",
+      "creator_id": "C0046",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00034",
+      "song_id": "S0032",
+      "creator_id": "C0046",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00035",
+      "song_id": "S0030",
+      "creator_id": "C0043",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00036",
+      "song_id": "S0030",
+      "creator_id": "C0044",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00037",
+      "song_id": "S0033",
+      "creator_id": "C0047",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00038",
+      "song_id": "S0033",
+      "creator_id": "C0044",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00039",
+      "song_id": "S0034",
+      "creator_id": "C0048",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00040",
+      "song_id": "S0034",
+      "creator_id": "C0048",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00041",
+      "song_id": "S0010",
+      "creator_id": "C0049",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00042",
+      "song_id": "S0010",
+      "creator_id": "C0049",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00043",
+      "song_id": "S0003",
+      "creator_id": "C0043",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00044",
+      "song_id": "S0003",
+      "creator_id": "C0044",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00045",
+      "song_id": "S0003",
+      "creator_id": "C0044",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00046",
+      "song_id": "S0004",
+      "creator_id": "C0050",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00047",
+      "song_id": "S0004",
+      "creator_id": "C0051",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00048",
+      "song_id": "S0005",
+      "creator_id": "C0052",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00049",
+      "song_id": "S0005",
+      "creator_id": "C0052",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00050",
+      "song_id": "S0006",
+      "creator_id": "C0052",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00051",
+      "song_id": "S0006",
+      "creator_id": "C0052",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00052",
+      "song_id": "S0102",
+      "creator_id": "C0043",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00053",
+      "song_id": "S0102",
+      "creator_id": "C0042",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00054",
+      "song_id": "S0011",
+      "creator_id": "C0053",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00055",
+      "song_id": "S0011",
+      "creator_id": "C0049",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00056",
+      "song_id": "S0011",
+      "creator_id": "C0053",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00057",
+      "song_id": "S0011",
+      "creator_id": "C0049",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00058",
+      "song_id": "S0103",
+      "creator_id": "C0054",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00059",
+      "song_id": "S0103",
+      "creator_id": "C0003",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00060",
+      "song_id": "S0035",
+      "creator_id": "C0002",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00061",
+      "song_id": "S0035",
+      "creator_id": "C0044",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00062",
+      "song_id": "S0036",
+      "creator_id": "C0043",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00063",
+      "song_id": "S0036",
+      "creator_id": "C0044",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00064",
+      "song_id": "S0104",
+      "creator_id": "C0048",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00065",
+      "song_id": "S0104",
+      "creator_id": "C0055",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00066",
+      "song_id": "S0104",
+      "creator_id": "C0053",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00067",
+      "song_id": "S0104",
+      "creator_id": "C0049",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00068",
+      "song_id": "S0037",
+      "creator_id": "C0056",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00069",
+      "song_id": "S0037",
+      "creator_id": "C0056",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00070",
+      "song_id": "S0040",
+      "creator_id": "C0057",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00071",
+      "song_id": "S0040",
+      "creator_id": "C0058",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00072",
+      "song_id": "S0105",
+      "creator_id": "C0059",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00073",
+      "song_id": "S0105",
+      "creator_id": "C0059",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00074",
+      "song_id": "S0039",
+      "creator_id": "C0060",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00075",
+      "song_id": "S0039",
+      "creator_id": "C0060",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00076",
+      "song_id": "S0106",
+      "creator_id": "C0061",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00077",
+      "song_id": "S0106",
+      "creator_id": "C0061",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00078",
+      "song_id": "S0107",
+      "creator_id": "C0062",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00079",
+      "song_id": "S0107",
+      "creator_id": "C0062",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00080",
+      "song_id": "S0108",
+      "creator_id": "C0063",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00081",
+      "song_id": "S0108",
+      "creator_id": "C0064",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00082",
+      "song_id": "S0109",
+      "creator_id": "C0065",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00083",
+      "song_id": "S0109",
+      "creator_id": "C0065",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00084",
+      "song_id": "S0110",
+      "creator_id": "C0066",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00085",
+      "song_id": "S0110",
+      "creator_id": "C0067",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00086",
+      "song_id": "S0111",
+      "creator_id": "C0065",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00087",
+      "song_id": "S0111",
+      "creator_id": "C0068",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00088",
+      "song_id": "S0111",
+      "creator_id": "C0065",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00089",
+      "song_id": "S0112",
+      "creator_id": "C0043",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00090",
+      "song_id": "S0112",
+      "creator_id": "C0044",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00091",
+      "song_id": "S0113",
+      "creator_id": "C0066",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00092",
+      "song_id": "S0113",
+      "creator_id": "C0069",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00093",
+      "song_id": "S0114",
+      "creator_id": "C0066",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00094",
+      "song_id": "S0114",
+      "creator_id": "C0069",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00095",
+      "song_id": "S0041",
+      "creator_id": "C0066",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00096",
+      "song_id": "S0041",
+      "creator_id": "C0067",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00097",
+      "song_id": "S0042",
+      "creator_id": "C0066",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00098",
+      "song_id": "S0042",
+      "creator_id": "C0069",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00099",
+      "song_id": "S0115",
+      "creator_id": "C0004",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00100",
+      "song_id": "S0115",
+      "creator_id": "C0004",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00101",
+      "song_id": "S0043",
+      "creator_id": "C0027",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00102",
+      "song_id": "S0043",
+      "creator_id": "C0044",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00103",
+      "song_id": "S0044",
+      "creator_id": "C0043",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00104",
+      "song_id": "S0044",
+      "creator_id": "C0044",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00105",
+      "song_id": "S0116",
+      "creator_id": "C0002",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00106",
+      "song_id": "S0116",
+      "creator_id": "C0044",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00107",
+      "song_id": "S0116",
+      "creator_id": "C0044",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00108",
+      "song_id": "S0045",
+      "creator_id": "C0070",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00109",
+      "song_id": "S0045",
+      "creator_id": "C0071",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00110",
+      "song_id": "S0046",
+      "creator_id": "C0072",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00111",
+      "song_id": "S0046",
+      "creator_id": "C0073",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00112",
+      "song_id": "S0057",
+      "creator_id": "C0074",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00113",
+      "song_id": "S0057",
+      "creator_id": "C0074",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00114",
+      "song_id": "S0117",
+      "creator_id": "C0075",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00115",
+      "song_id": "S0117",
+      "creator_id": "C0076",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00116",
+      "song_id": "S0118",
+      "creator_id": "C0010",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00117",
+      "song_id": "S0118",
+      "creator_id": "C0077",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00118",
+      "song_id": "S0118",
+      "creator_id": "C0078",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00119",
+      "song_id": "S0119",
+      "creator_id": "C0079",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00120",
+      "song_id": "S0119",
+      "creator_id": "C0080",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00121",
+      "song_id": "S0119",
+      "creator_id": "C0080",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00122",
+      "song_id": "S0120",
+      "creator_id": "C0081",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00123",
+      "song_id": "S0120",
+      "creator_id": "C0082",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00124",
+      "song_id": "S0120",
+      "creator_id": "C0082",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00125",
+      "song_id": "S0121",
+      "creator_id": "C0018",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00126",
+      "song_id": "S0121",
+      "creator_id": "C0018",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00127",
+      "song_id": "S0121",
+      "creator_id": "C0076",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00128",
+      "song_id": "S0077",
+      "creator_id": "C0050",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00129",
+      "song_id": "S0077",
+      "creator_id": "C0004",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00130",
+      "song_id": "S0077",
+      "creator_id": "C0004",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00131",
+      "song_id": "S0122",
+      "creator_id": "C0083",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00132",
+      "song_id": "S0122",
+      "creator_id": "C0084",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00133",
+      "song_id": "S0122",
+      "creator_id": "C0084",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00134",
+      "song_id": "S0123",
+      "creator_id": "C0085",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00135",
+      "song_id": "S0123",
+      "creator_id": "C0069",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00136",
+      "song_id": "S0124",
+      "creator_id": "C0018",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00137",
+      "song_id": "S0124",
+      "creator_id": "C0018",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00138",
+      "song_id": "S0125",
+      "creator_id": "C0086",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00139",
+      "song_id": "S0125",
+      "creator_id": "C0087",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00140",
+      "song_id": "S0013",
+      "creator_id": "C0002",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00141",
+      "song_id": "S0013",
+      "creator_id": "C0003",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00142",
+      "song_id": "S0048",
+      "creator_id": "C0088",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00143",
+      "song_id": "S0048",
+      "creator_id": "C0073",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00144",
+      "song_id": "S0047",
+      "creator_id": "C0089",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00145",
+      "song_id": "S0047",
+      "creator_id": "C0090",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00146",
+      "song_id": "S0017",
+      "creator_id": "C0010",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00147",
+      "song_id": "S0017",
+      "creator_id": "C0091",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00148",
+      "song_id": "S0049",
+      "creator_id": "C0010",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00149",
+      "song_id": "S0049",
+      "creator_id": "C0092",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00150",
+      "song_id": "S0050",
+      "creator_id": "C0018",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00151",
+      "song_id": "S0050",
+      "creator_id": "C0018",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00152",
+      "song_id": "S0014",
+      "creator_id": "C0004",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00153",
+      "song_id": "S0014",
+      "creator_id": "C0004",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00154",
+      "song_id": "S0051",
+      "creator_id": "C0001",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00155",
+      "song_id": "S0051",
+      "creator_id": "C0001",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00156",
+      "song_id": "S0052",
+      "creator_id": "C0093",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00157",
+      "song_id": "S0052",
+      "creator_id": "C0093",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00158",
+      "song_id": "S0015",
+      "creator_id": "C0006",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00159",
+      "song_id": "S0015",
+      "creator_id": "C0094",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00160",
+      "song_id": "S0015",
+      "creator_id": "C0006",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00161",
+      "song_id": "S0019",
+      "creator_id": "C0001",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00162",
+      "song_id": "S0019",
+      "creator_id": "C0001",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00163",
+      "song_id": "S0053",
+      "creator_id": "C0004",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00164",
+      "song_id": "S0053",
+      "creator_id": "C0004",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00165",
+      "song_id": "S0012",
+      "creator_id": "C0001",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00166",
+      "song_id": "S0012",
+      "creator_id": "C0001",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00167",
+      "song_id": "S0016",
+      "creator_id": "C0009",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00168",
+      "song_id": "S0016",
+      "creator_id": "C0009",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00169",
+      "song_id": "S0018",
+      "creator_id": "C0012",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00170",
+      "song_id": "S0018",
+      "creator_id": "C0013",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00171",
+      "song_id": "S0018",
+      "creator_id": "C0012",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00172",
+      "song_id": "S0020",
+      "creator_id": "C0014",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00173",
+      "song_id": "S0020",
+      "creator_id": "C0014",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00174",
+      "song_id": "S0021",
+      "creator_id": "C0016",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00175",
+      "song_id": "S0021",
+      "creator_id": "C0017",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00176",
+      "song_id": "S0022",
+      "creator_id": "C0014",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00177",
+      "song_id": "S0022",
+      "creator_id": "C0006",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00178",
+      "song_id": "S0100",
+      "creator_id": "C0014",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00179",
+      "song_id": "S0100",
+      "creator_id": "C0014",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00180",
+      "song_id": "S0055",
+      "creator_id": "C0095",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00181",
+      "song_id": "S0055",
+      "creator_id": "C0095",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00182",
+      "song_id": "S0054",
+      "creator_id": "C0096",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00183",
+      "song_id": "S0054",
+      "creator_id": "C0097",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00184",
+      "song_id": "S0126",
+      "creator_id": "C0014",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00185",
+      "song_id": "S0126",
+      "creator_id": "C0014",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00186",
+      "song_id": "S0126",
+      "creator_id": "C0014",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00187",
+      "song_id": "S0127",
+      "creator_id": "C0098",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00188",
+      "song_id": "S0127",
+      "creator_id": "C0099",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00189",
+      "song_id": "S0127",
+      "creator_id": "C0098",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00190",
+      "song_id": "S0127",
+      "creator_id": "C0005",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00191",
+      "song_id": "S0056",
+      "creator_id": "C0100",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00192",
+      "song_id": "S0056",
+      "creator_id": "C0100",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00193",
+      "song_id": "S0056",
+      "creator_id": "C0100",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00194",
+      "song_id": "S0128",
+      "creator_id": "C0014",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00195",
+      "song_id": "S0128",
+      "creator_id": "C0014",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00196",
+      "song_id": "S0128",
+      "creator_id": "C0014",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00197",
+      "song_id": "S0096",
+      "creator_id": "C0032",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00198",
+      "song_id": "S0096",
+      "creator_id": "C0101",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00199",
+      "song_id": "S0096",
+      "creator_id": "C0032",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00200",
+      "song_id": "S0096",
+      "creator_id": "C0102",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00201",
+      "song_id": "S0096",
+      "creator_id": "C0101",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00202",
+      "song_id": "S0096",
+      "creator_id": "C0102",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00203",
+      "song_id": "S0095",
+      "creator_id": "C0030",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00204",
+      "song_id": "S0095",
+      "creator_id": "C0030",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00205",
+      "song_id": "S0095",
+      "creator_id": "C0031",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00206",
+      "song_id": "S0129",
+      "creator_id": "C0103",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00207",
+      "song_id": "S0129",
+      "creator_id": "C0103",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00208",
+      "song_id": "S0129",
+      "creator_id": "C0103",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00209",
+      "song_id": "S0130",
+      "creator_id": "C0104",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00210",
+      "song_id": "S0130",
+      "creator_id": "C0105",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00211",
+      "song_id": "S0130",
+      "creator_id": "C0105",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00212",
+      "song_id": "S0131",
+      "creator_id": "C0106",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00213",
+      "song_id": "S0131",
+      "creator_id": "C0107",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00214",
+      "song_id": "S0131",
+      "creator_id": "C0107",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00215",
+      "song_id": "S0132",
+      "creator_id": "C0108",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00216",
+      "song_id": "S0132",
+      "creator_id": "C0109",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00217",
+      "song_id": "S0132",
+      "creator_id": "C0110",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00218",
+      "song_id": "S0133",
+      "creator_id": "C0111",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00219",
+      "song_id": "S0133",
+      "creator_id": "C0111",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00220",
+      "song_id": "S0133",
+      "creator_id": "C0112",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00221",
+      "song_id": "S0134",
+      "creator_id": "C0113",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00222",
+      "song_id": "S0134",
+      "creator_id": "C0113",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00223",
+      "song_id": "S0134",
+      "creator_id": "C0113",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00224",
+      "song_id": "S0135",
+      "creator_id": "C0114",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00225",
+      "song_id": "S0135",
+      "creator_id": "C0115",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00226",
+      "song_id": "S0135",
+      "creator_id": "C0116",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00227",
+      "song_id": "S0135",
+      "creator_id": "C0114",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00228",
+      "song_id": "S0135",
+      "creator_id": "C0115",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00229",
+      "song_id": "S0135",
+      "creator_id": "C0116",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00230",
+      "song_id": "S0135",
+      "creator_id": "C0114",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00231",
+      "song_id": "S0136",
+      "creator_id": "C0117",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00232",
+      "song_id": "S0136",
+      "creator_id": "C0117",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00233",
+      "song_id": "S0136",
+      "creator_id": "C0117",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00234",
+      "song_id": "S0137",
+      "creator_id": "C0118",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00235",
+      "song_id": "S0137",
+      "creator_id": "C0119",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00236",
+      "song_id": "S0137",
+      "creator_id": "C0119",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00237",
+      "song_id": "S0138",
+      "creator_id": "C0120",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00238",
+      "song_id": "S0138",
+      "creator_id": "C0004",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00239",
+      "song_id": "S0138",
+      "creator_id": "C0004",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00240",
+      "song_id": "S0139",
+      "creator_id": "C0111",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00241",
+      "song_id": "S0139",
+      "creator_id": "C0121",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00242",
+      "song_id": "S0139",
+      "creator_id": "C0111",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00243",
+      "song_id": "S0139",
+      "creator_id": "C0112",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00244",
+      "song_id": "S0140",
+      "creator_id": "C0122",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00245",
+      "song_id": "S0140",
+      "creator_id": "C0123",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00246",
+      "song_id": "S0140",
+      "creator_id": "C0123",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00247",
+      "song_id": "S0099",
+      "creator_id": "C0009",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00248",
+      "song_id": "S0099",
+      "creator_id": "C0009",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00249",
+      "song_id": "S0099",
+      "creator_id": "C0009",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00250",
+      "song_id": "S0141",
+      "creator_id": "C0030",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00251",
+      "song_id": "S0141",
+      "creator_id": "C0030",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00252",
+      "song_id": "S0141",
+      "creator_id": "C0031",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00253",
+      "song_id": "S0142",
+      "creator_id": "C0124",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00254",
+      "song_id": "S0142",
+      "creator_id": "C0125",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00255",
+      "song_id": "S0142",
+      "creator_id": "C0067",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00256",
+      "song_id": "S0142",
+      "creator_id": "C0125",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00257",
+      "song_id": "S0143",
+      "creator_id": "C0124",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00258",
+      "song_id": "S0143",
+      "creator_id": "C0125",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00259",
+      "song_id": "S0143",
+      "creator_id": "C0067",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00260",
+      "song_id": "S0143",
+      "creator_id": "C0125",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00261",
+      "song_id": "S0144",
+      "creator_id": "C0085",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00262",
+      "song_id": "S0144",
+      "creator_id": "C0125",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00263",
+      "song_id": "S0144",
+      "creator_id": "C0067",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00264",
+      "song_id": "S0145",
+      "creator_id": "C0104",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00265",
+      "song_id": "S0145",
+      "creator_id": "C0125",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00266",
+      "song_id": "S0145",
+      "creator_id": "C0125",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00267",
+      "song_id": "S0146",
+      "creator_id": "C0126",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00268",
+      "song_id": "S0146",
+      "creator_id": "C0125",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00269",
+      "song_id": "S0146",
+      "creator_id": "C0067",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00270",
+      "song_id": "S0147",
+      "creator_id": "C0126",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00271",
+      "song_id": "S0147",
+      "creator_id": "C0125",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00272",
+      "song_id": "S0147",
+      "creator_id": "C0125",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00273",
+      "song_id": "S0148",
+      "creator_id": "C0104",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00274",
+      "song_id": "S0148",
+      "creator_id": "C0125",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00275",
+      "song_id": "S0148",
+      "creator_id": "C0067",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00276",
+      "song_id": "S0148",
+      "creator_id": "C0125",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00277",
+      "song_id": "S0149",
+      "creator_id": "C0127",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00278",
+      "song_id": "S0149",
+      "creator_id": "C0125",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00279",
+      "song_id": "S0149",
+      "creator_id": "C0067",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00280",
+      "song_id": "S0150",
+      "creator_id": "C0124",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00281",
+      "song_id": "S0150",
+      "creator_id": "C0125",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00282",
+      "song_id": "S0150",
+      "creator_id": "C0067",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00283",
+      "song_id": "S0151",
+      "creator_id": "C0128",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00284",
+      "song_id": "S0151",
+      "creator_id": "C0125",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00285",
+      "song_id": "S0151",
+      "creator_id": "C0067",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00286",
+      "song_id": "S0152",
+      "creator_id": "C0126",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00287",
+      "song_id": "S0152",
+      "creator_id": "C0125",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00288",
+      "song_id": "S0152",
+      "creator_id": "C0125",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00289",
+      "song_id": "S0153",
+      "creator_id": "C0129",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00290",
+      "song_id": "S0153",
+      "creator_id": "C0125",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00291",
+      "song_id": "S0153",
+      "creator_id": "C0067",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00292",
+      "song_id": "S0154",
+      "creator_id": "C0079",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00293",
+      "song_id": "S0154",
+      "creator_id": "C0130",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00294",
+      "song_id": "S0154",
+      "creator_id": "C0130",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00295",
+      "song_id": "S0091",
+      "creator_id": "C0131",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00296",
+      "song_id": "S0091",
+      "creator_id": "C0131",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00297",
+      "song_id": "S0091",
+      "creator_id": "C0131",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00298",
+      "song_id": "S0092",
+      "creator_id": "C0131",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00299",
+      "song_id": "S0092",
+      "creator_id": "C0131",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00300",
+      "song_id": "S0092",
+      "creator_id": "C0131",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00301",
+      "song_id": "S0155",
+      "creator_id": "C0132",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00302",
+      "song_id": "S0155",
+      "creator_id": "C0133",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00303",
+      "song_id": "S0155",
+      "creator_id": "C0134",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00304",
+      "song_id": "S0156",
+      "creator_id": "C0079",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00305",
+      "song_id": "S0156",
+      "creator_id": "C0130",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00306",
+      "song_id": "S0156",
+      "creator_id": "C0130",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00307",
+      "song_id": "S0157",
+      "creator_id": "C0079",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00308",
+      "song_id": "S0157",
+      "creator_id": "C0130",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00309",
+      "song_id": "S0157",
+      "creator_id": "C0130",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00310",
+      "song_id": "S0158",
+      "creator_id": "C0079",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00311",
+      "song_id": "S0158",
+      "creator_id": "C0130",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00312",
+      "song_id": "S0093",
+      "creator_id": "C0135",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00313",
+      "song_id": "S0093",
+      "creator_id": "C0135",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00314",
+      "song_id": "S0093",
+      "creator_id": "C0135",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00315",
+      "song_id": "S0094",
+      "creator_id": "C0135",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00316",
+      "song_id": "S0094",
+      "creator_id": "C0135",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00317",
+      "song_id": "S0094",
+      "creator_id": "C0135",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00318",
+      "song_id": "S0159",
+      "creator_id": "C0136",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00319",
+      "song_id": "S0159",
+      "creator_id": "C0137",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00320",
+      "song_id": "S0159",
+      "creator_id": "C0136",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00321",
+      "song_id": "S0159",
+      "creator_id": "C0136",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00322",
+      "song_id": "S0160",
+      "creator_id": "C0138",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00323",
+      "song_id": "S0160",
+      "creator_id": "C0138",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00324",
+      "song_id": "S0160",
+      "creator_id": "C0008",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00325",
+      "song_id": "S0161",
+      "creator_id": "C0009",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00326",
+      "song_id": "S0161",
+      "creator_id": "C0009",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00327",
+      "song_id": "S0161",
+      "creator_id": "C0005",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00328",
+      "song_id": "S0162",
+      "creator_id": "C0139",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00329",
+      "song_id": "S0162",
+      "creator_id": "C0140",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00330",
+      "song_id": "S0162",
+      "creator_id": "C0141",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00331",
+      "song_id": "S0163",
+      "creator_id": "C0004",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00332",
+      "song_id": "S0163",
+      "creator_id": "C0004",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00333",
+      "song_id": "S0163",
+      "creator_id": "C0004",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00334",
+      "song_id": "S0079",
+      "creator_id": "C0135",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00335",
+      "song_id": "S0079",
+      "creator_id": "C0135",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00336",
+      "song_id": "S0079",
+      "creator_id": "C0005",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00337",
+      "song_id": "S0164",
+      "creator_id": "C0136",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00338",
+      "song_id": "S0164",
+      "creator_id": "C0136",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00339",
+      "song_id": "S0164",
+      "creator_id": "C0136",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00340",
+      "song_id": "S0165",
+      "creator_id": "C0142",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00341",
+      "song_id": "S0165",
+      "creator_id": "C0142",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00342",
+      "song_id": "S0165",
+      "creator_id": "C0142",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00343",
+      "song_id": "S0166",
+      "creator_id": "C0135",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00344",
+      "song_id": "S0166",
+      "creator_id": "C0135",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00345",
+      "song_id": "S0166",
+      "creator_id": "C0005",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00346",
+      "song_id": "S0167",
+      "creator_id": "C0079",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00347",
+      "song_id": "S0167",
+      "creator_id": "C0130",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00348",
+      "song_id": "S0167",
+      "creator_id": "C0130",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00349",
+      "song_id": "S0074",
+      "creator_id": "C0135",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00350",
+      "song_id": "S0074",
+      "creator_id": "C0135",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00351",
+      "song_id": "S0074",
+      "creator_id": "C0005",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00352",
+      "song_id": "S0168",
+      "creator_id": "C0143",
+      "role": "作詞",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00353",
+      "song_id": "S0168",
+      "creator_id": "C0143",
+      "role": "作曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    },
+    {
+      "credit_id": "CR00354",
+      "song_id": "S0168",
+      "creator_id": "C0143",
+      "role": "編曲",
+      "source_ids": [
+        "user_excel_book1"
+      ]
+    }
+  ],
+  "releases": [
+    {
+      "release_id": "r_we_are",
+      "release_title": "We are i☆Ris!!!",
+      "release_date": "2015-04-08",
+      "release_type": "album",
+      "artist": "i☆Ris"
+    },
+    {
+      "release_id": "r_shall_we",
+      "release_title": "Shall we☆Carnival",
+      "release_date": "2020-03-13",
+      "release_type": "album",
+      "artist": "i☆Ris"
+    },
+    {
+      "release_id": "r_coupling",
+      "release_title": "i☆Ris Coupling Best",
+      "release_date": "2024-03-20",
+      "release_type": "album",
+      "artist": "i☆Ris"
+    },
+    {
+      "release_id": "r_live_2026",
+      "release_title": "i☆Ris 11th Live Tour 2026 ～VINTAGEイイ味出てます～",
+      "release_date": "2027-02-24",
+      "release_type": "live_video",
+      "artist": "i☆Ris"
+    },
+    {
+      "release_id": "r_live_2024",
+      "release_title": "i☆Ris 9th Live Tour 2024 愛たくて…Full Ener9y!!",
+      "release_date": "2027-02-24",
+      "release_type": "live_video",
+      "artist": "i☆Ris"
+    },
+    {
+      "release_id": "r_serizawa_2018",
+      "release_title": "芹澤優 1stシングル「最悪な日でもあなたが好き。」",
+      "release_date": "2018-07-25",
+      "release_type": "single",
+      "artist": "芹澤優"
+    },
+    {
+      "release_id": "r_serizawa_2021",
+      "release_title": "芹澤優 with DJ KOO & MOTSU「EVERYBODY! EVERYBODY!/YOU YOU YOU」",
+      "release_date": "2021-05-19",
+      "release_type": "single",
+      "artist": "芹澤優 with DJ KOO & MOTSU"
+    }
+  ],
+  "release_tracks": [
+    {
+      "release_track_id": "RT0001",
+      "release_id": "r_we_are",
+      "song_id": "S0001"
+    },
+    {
+      "release_track_id": "RT0002",
+      "release_id": "r_we_are",
+      "song_id": "S0002"
+    },
+    {
+      "release_track_id": "RT0003",
+      "release_id": "r_we_are",
+      "song_id": "S0003"
+    },
+    {
+      "release_track_id": "RT0004",
+      "release_id": "r_we_are",
+      "song_id": "S0004"
+    },
+    {
+      "release_track_id": "RT0005",
+      "release_id": "r_we_are",
+      "song_id": "S0005"
+    },
+    {
+      "release_track_id": "RT0006",
+      "release_id": "r_we_are",
+      "song_id": "S0006"
+    },
+    {
+      "release_track_id": "RT0007",
+      "release_id": "r_we_are",
+      "song_id": "S0007"
+    },
+    {
+      "release_track_id": "RT0008",
+      "release_id": "r_we_are",
+      "song_id": "S0008"
+    },
+    {
+      "release_track_id": "RT0010",
+      "release_id": "r_we_are",
+      "song_id": "S0010"
+    },
+    {
+      "release_track_id": "RT0011",
+      "release_id": "r_we_are",
+      "song_id": "S0011"
+    },
+    {
+      "release_track_id": "RT0012",
+      "release_id": "r_shall_we",
+      "song_id": "S0012"
+    },
+    {
+      "release_track_id": "RT0013",
+      "release_id": "r_shall_we",
+      "song_id": "S0013"
+    },
+    {
+      "release_track_id": "RT0014",
+      "release_id": "r_shall_we",
+      "song_id": "S0014"
+    },
+    {
+      "release_track_id": "RT0015",
+      "release_id": "r_shall_we",
+      "song_id": "S0015"
+    },
+    {
+      "release_track_id": "RT0016",
+      "release_id": "r_shall_we",
+      "song_id": "S0016"
+    },
+    {
+      "release_track_id": "RT0017",
+      "release_id": "r_shall_we",
+      "song_id": "S0017"
+    },
+    {
+      "release_track_id": "RT0018",
+      "release_id": "r_shall_we",
+      "song_id": "S0018"
+    },
+    {
+      "release_track_id": "RT0019",
+      "release_id": "r_shall_we",
+      "song_id": "S0019"
+    },
+    {
+      "release_track_id": "RT0020",
+      "release_id": "r_shall_we",
+      "song_id": "S0020"
+    },
+    {
+      "release_track_id": "RT0021",
+      "release_id": "r_shall_we",
+      "song_id": "S0021"
+    },
+    {
+      "release_track_id": "RT0022",
+      "release_id": "r_shall_we",
+      "song_id": "S0022"
+    },
+    {
+      "release_track_id": "RT0023",
+      "release_id": "r_coupling",
+      "song_id": "S0023"
+    },
+    {
+      "release_track_id": "RT0024",
+      "release_id": "r_coupling",
+      "song_id": "S0024"
+    },
+    {
+      "release_track_id": "RT0025",
+      "release_id": "r_coupling",
+      "song_id": "S0025"
+    },
+    {
+      "release_track_id": "RT0026",
+      "release_id": "r_coupling",
+      "song_id": "S0026"
+    },
+    {
+      "release_track_id": "RT0027",
+      "release_id": "r_coupling",
+      "song_id": "S0027"
+    },
+    {
+      "release_track_id": "RT0028",
+      "release_id": "r_coupling",
+      "song_id": "S0028"
+    },
+    {
+      "release_track_id": "RT0029",
+      "release_id": "r_coupling",
+      "song_id": "S0029"
+    },
+    {
+      "release_track_id": "RT0030",
+      "release_id": "r_coupling",
+      "song_id": "S0030"
+    },
+    {
+      "release_track_id": "RT0031",
+      "release_id": "r_coupling",
+      "song_id": "S0031"
+    },
+    {
+      "release_track_id": "RT0032",
+      "release_id": "r_coupling",
+      "song_id": "S0032"
+    },
+    {
+      "release_track_id": "RT0033",
+      "release_id": "r_coupling",
+      "song_id": "S0033"
+    },
+    {
+      "release_track_id": "RT0034",
+      "release_id": "r_coupling",
+      "song_id": "S0034"
+    },
+    {
+      "release_track_id": "RT0035",
+      "release_id": "r_coupling",
+      "song_id": "S0035"
+    },
+    {
+      "release_track_id": "RT0036",
+      "release_id": "r_coupling",
+      "song_id": "S0036"
+    },
+    {
+      "release_track_id": "RT0037",
+      "release_id": "r_coupling",
+      "song_id": "S0037"
+    },
+    {
+      "release_track_id": "RT0039",
+      "release_id": "r_coupling",
+      "song_id": "S0039"
+    },
+    {
+      "release_track_id": "RT0040",
+      "release_id": "r_coupling",
+      "song_id": "S0040"
+    },
+    {
+      "release_track_id": "RT0041",
+      "release_id": "r_coupling",
+      "song_id": "S0041"
+    },
+    {
+      "release_track_id": "RT0042",
+      "release_id": "r_coupling",
+      "song_id": "S0042"
+    },
+    {
+      "release_track_id": "RT0043",
+      "release_id": "r_coupling",
+      "song_id": "S0043"
+    },
+    {
+      "release_track_id": "RT0044",
+      "release_id": "r_coupling",
+      "song_id": "S0044"
+    },
+    {
+      "release_track_id": "RT0045",
+      "release_id": "r_coupling",
+      "song_id": "S0045"
+    },
+    {
+      "release_track_id": "RT0046",
+      "release_id": "r_coupling",
+      "song_id": "S0046"
+    },
+    {
+      "release_track_id": "RT0047",
+      "release_id": "r_coupling",
+      "song_id": "S0047"
+    },
+    {
+      "release_track_id": "RT0048",
+      "release_id": "r_coupling",
+      "song_id": "S0048"
+    },
+    {
+      "release_track_id": "RT0049",
+      "release_id": "r_coupling",
+      "song_id": "S0049"
+    },
+    {
+      "release_track_id": "RT0050",
+      "release_id": "r_coupling",
+      "song_id": "S0050"
+    },
+    {
+      "release_track_id": "RT0051",
+      "release_id": "r_coupling",
+      "song_id": "S0051"
+    },
+    {
+      "release_track_id": "RT0052",
+      "release_id": "r_coupling",
+      "song_id": "S0052"
+    },
+    {
+      "release_track_id": "RT0053",
+      "release_id": "r_coupling",
+      "song_id": "S0053"
+    },
+    {
+      "release_track_id": "RT0054",
+      "release_id": "r_coupling",
+      "song_id": "S0054"
+    },
+    {
+      "release_track_id": "RT0055",
+      "release_id": "r_coupling",
+      "song_id": "S0055"
+    },
+    {
+      "release_track_id": "RT0056",
+      "release_id": "r_coupling",
+      "song_id": "S0056"
+    },
+    {
+      "release_track_id": "RT0057",
+      "release_id": "r_coupling",
+      "song_id": "S0057"
+    },
+    {
+      "release_track_id": "RT0074",
+      "release_id": "r_live_2026",
+      "song_id": "S0074"
+    },
+    {
+      "release_track_id": "RT0077",
+      "release_id": "r_live_2024",
+      "song_id": "S0077"
+    },
+    {
+      "release_track_id": "RT0079",
+      "release_id": "r_live_2024",
+      "song_id": "S0079"
+    },
+    {
+      "release_track_id": "RT0091",
+      "release_id": "r_serizawa_2018",
+      "song_id": "S0091"
+    },
+    {
+      "release_track_id": "RT0092",
+      "release_id": "r_serizawa_2018",
+      "song_id": "S0092"
+    },
+    {
+      "release_track_id": "RT0093",
+      "release_id": "r_serizawa_2021",
+      "song_id": "S0093"
+    },
+    {
+      "release_track_id": "RT0094",
+      "release_id": "r_serizawa_2021",
+      "song_id": "S0094"
+    }
+  ],
+  "sources": [
+    {
+      "id": "official_discography",
+      "title": "i☆Ris Official Discography",
+      "url": "https://iris.dive2ent.com/discography/archive.php",
+      "type": "official"
+    },
+    {
+      "id": "album_we_are",
+      "title": "We are i☆Ris!!!",
+      "url": "https://iris.dive2ent.com/discography/detail.php?id=1009560",
+      "type": "official"
+    },
+    {
+      "id": "album_shall_we",
+      "title": "Shall we☆Carnival",
+      "url": "https://iris.dive2ent.com/discography/detail.php?id=1017265",
+      "type": "official"
+    },
+    {
+      "id": "album_main_dish",
+      "title": "友希 1st ALBUM Main Dish",
+      "url": "https://avexnet.jp/contents/IRISX-XXXX-XXXX/discography/1021146",
+      "type": "official"
+    },
+    {
+      "id": "coupling_best_tracklist",
+      "title": "i☆Ris Coupling Best track list",
+      "url": "https://www.uta-net.com/user/search_index/artist.html?AID=13938",
+      "type": "secondary"
+    },
+    {
+      "id": "live_2026",
+      "title": "i☆Ris 11th Live Tour 2026 track list",
+      "url": "https://iris.dive2ent.com/discography/",
+      "type": "official"
+    },
+    {
+      "id": "live_2024",
+      "title": "i☆Ris 9th Live Tour 2024 track list",
+      "url": "https://iris.dive2ent.com/discography/",
+      "type": "official"
+    },
+    {
+      "id": "solo_other",
+      "title": "i☆Ris official other releases",
+      "url": "https://iris.dive2ent.com/discography/archive.php?c=others",
+      "type": "official"
+    },
+    {
+      "id": "single_archive",
+      "title": "i☆Ris official single archive",
+      "url": "https://iris.dive2ent.com/discography/archive.php?c=single",
+      "type": "official"
+    },
+    {
+      "id": "uta_net",
+      "title": "歌ネット i☆Ris 歌詞一覧（103曲掲載・歌詞本文は保存しない）",
+      "url": "https://www.uta-net.com/artist/13938/",
+      "type": "secondary",
+      "note": "曲名・歌手名・作詞・作曲・編曲の確認用。全103曲のクレジット一括取り込みは未完了。ページ表示は2026-11-05確認。"
+    },
+    {
+      "id": "user_excel_book1",
+      "title": "ユーザー提供 Excel（Book1.xlsx）",
+      "url": "",
+      "type": "user_provided",
+      "notes": "Sheet1を基本データ、Sheet1 (2)を追加クレジット確認用として使用。"
+    }
+  ]
+}
